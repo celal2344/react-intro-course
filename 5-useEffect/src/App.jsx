@@ -17,6 +17,9 @@ function App() {
   useEffect(() => {
     console.log("works only when lastName changes and the component is rendered for the first time")
   }, [lastName])
+  useEffect(() => {
+    console.log("works only when firstName or lastName changes and the component is rendered for the first time")
+  }, [firstName, lastName])
   return (
     <>
       {firstName}
