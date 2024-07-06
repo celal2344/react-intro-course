@@ -1,8 +1,7 @@
-import React from 'react'
 import "../css/Yonko.css"
 
 function Yonko({ yonko }) {
-    const { id, title, description, bounty, fruit, fruitimage, image } = yonko
+    const { title, description, bounty, fruit, fruitimage, image } = yonko
     return (
         <>
             <div className="yonko">
