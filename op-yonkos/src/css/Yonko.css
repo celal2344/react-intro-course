@@ -1,0 +1,21 @@
+.yonkoImage {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.fruitImage {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.yonko {
+    max-width: 500px;
+    margin: 10px;
+    border: 2px solid;
+    position: relative;
+}

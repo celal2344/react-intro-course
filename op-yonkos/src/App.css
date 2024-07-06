@@ -1,0 +1,4 @@
+.yonkoContainer {
+    display: flex;
+    flex-direction: row;
+}
