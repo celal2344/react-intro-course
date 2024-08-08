@@ -1,7 +1,7 @@
 import "../css/Currency.css"
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import axios from "axios"
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 const BASE_URL = "https://api.freecurrencyapi.com/v1/latest";
 const API_KEY = "fca_live_QRwsCBTgKGj7UMKeKZz3H8UWIfwLeyFqSn4iP7Qf"
